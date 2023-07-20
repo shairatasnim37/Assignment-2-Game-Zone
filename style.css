@@ -126,6 +126,20 @@ picture {
     justify-content: center;
     gap: 2px;
 }
+.icon{
+    display: flex;
+    
+    
+}
+.various-icon{
+    display: flex;
+    
+    
+}
+.policy{
+    padding: 74px;
+    display: flex;
+}
 
 .action-card {
     display: flex;
