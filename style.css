@@ -1,127 +1,142 @@
-Follow Link (ctrl+click)//fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-.font-family{
-    font-family: 'Work Sans', sans-serif;
-}
-header{
-    background: #FFF;
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-}
-nav{
-    display: flex;
-
-
-}
-nav img{
-    width: 86.041px;
-height: 40px;
-flex-shrink: 0;
+.font-family {
+  font-family: "Work Sans", sans-serif;
 }
 
-nav>ul{
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 100px;
+}
+ul {
     display: flex;
 }
-.banner{
-    margin: 130px;
+ul li {
+    list-style: none;
 }
-.baner-head{
-    color:#F948B2, #8758F1 ;
-
+.list li {
+    padding: 10px 15px;
 }
-.btn-1{
-    color: #FFF;
-    display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 48px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+.youtube-tiktok {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    padding: 10px 20px;
 }
-.btn-2{
-    color: #FFF;
-    display: inline-flex;
-    padding: 21px 40px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 48px;
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+.banner {
+  margin: 130px;
+}
+.baner-head {
+  color: #f948b2, #8758f1;
+}
+.btn-1 {
+  color: #fff;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+}
+.btn-2 {
+  color: #fff;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
 }
 
+.family-head {
+  color: #f948b2, #8758f1;
+}
+.btn-3 {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+}
+.cartoon-photos {
+  margin: 100px;
+}
+.row {
+  display: flex;
+}
+.game-1 {
+  padding: 24px;
+}
+.download {
+  margin: 336;
+}
+.careers {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  color: #fff;
+  margin: 100px 0;
+  padding: 100px;
+}
+.btn-4 {
+  font-size: 20px;
+  font-weight: 600px;
+  border-radius: 48px;
+  background: #fff;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+picture {
+  padding: 120px 239px;
+  width: 1920px;
+  height: 427px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.Gamer {
+  display: flex;
+  width: 1920px;
+  height: 636px;
+  flex-shrink: 0;
+  background: #0b0223;
+}
+.container{
+    display:flex ;
+    flex-direction: column;
     
+}
 
- 
+.flow{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
 
-
-
-    
-
-    
-    
-        
-    
-    .family-head{
-        color: #F948B2, #8758F1
-    }
-    .btn-3{
-        color: #FFF;
-font-family: Work Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
-display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 48px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-    }
-    .cartoon-photos{
-        margin: 100px;
-    }
-    .row{
-        display: flex;
-    }
-    .game-1{
-        padding: 24px;
-    }
-    .download{
-        margin: 336;
-    }
-    .careers{
-        width: 1920px;
-height: 821px;
-flex-shrink: 0;
-background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-color: #FFF;
-    }
-    .btn-4{
-        font-size: 20px;
-        font-weight: 600px;
-        border-radius: 48px;
-background: #FFF;
-display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-margin-top: 10px;
-
-    }
-    picture{
-        padding: 120px 239px;
-
-    
-    
-        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    }
-        
-
-        
-    
-
-
-
-
-
-
-
+.action-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid pink;
+    padding: 10px 30px;
+    border-radius: 50px;
+    width: fit-content;
+}
+footer {
+    color: white;
+}
 
